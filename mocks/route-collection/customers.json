@@ -1,0 +1,6 @@
+[
+  "customers-catalog:@admin/success",
+  "customers-find-by-id:@admin/success",
+  "customers-update-by-id:@admin/success",
+  "customers-delete-by-id:@admin/success"
+]

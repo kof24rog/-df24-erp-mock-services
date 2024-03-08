@@ -1,0 +1,7 @@
+[
+  "customer-chains-catalog:@admin/success",
+  "customer-chains-find-by-id:@admin/success",
+  "customer-chains-update-by-id:@admin/success",
+  "customer-chains-create:@admin/success",
+  "customer-chains-delete-by-id:@admin/success"
+]

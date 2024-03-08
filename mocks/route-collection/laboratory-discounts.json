@@ -1,0 +1,7 @@
+[
+  "discounts-laboratory-catalog:@admin/success",
+  "discounts-laboratory-find-by-id:@admin/success",
+  "discounts-laboratory-update-by-id:@admin/success",
+  "discounts-laboratory-create:@admin/success",
+  "discounts-laboratory-delete-by-id:@admin/success"
+]

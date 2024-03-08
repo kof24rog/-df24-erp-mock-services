@@ -1,0 +1,51 @@
+[
+  {
+    "key": "created",
+    "label": "Created",
+    "labelInt": "Creado",
+    "next": ["sent"]
+  },
+  { "key": "cancelled", "label": "Cancelled", "labelInt": "Cancelado" },
+  {
+    "key": "sent",
+    "label": "Sent",
+    "labelInt": "Enviado",
+    "next": ["processed", "cancelled"]
+  },
+  {
+    "key": "processed",
+    "label": "Processed",
+    "labelInt": "Procesado",
+    "next": ["received", "cancelled"]
+  },
+  {
+    "key": "received",
+    "label": "Received",
+    "labelInt": "Recibido",
+    "next": ["picking", "cancelled"]
+  },
+  {
+    "key": "picking",
+    "label": "Picking",
+    "labelInt": "Recogiendo",
+    "next": ["packing", "cancelled"]
+  },
+  {
+    "key": "packing",
+    "label": "Packing",
+    "labelInt": "Empaquetando",
+    "next": ["invoiced", "cancelled"]
+  },
+  {
+    "key": "invoiced",
+    "label": "Invoiced",
+    "labelInt": "Facturado",
+    "next": ["dispatched", "cancelled"]
+  },
+  {
+    "key": "dispatched",
+    "label": "Dispatched",
+    "labelInt": "Enviado",
+    "next": []
+  }
+]

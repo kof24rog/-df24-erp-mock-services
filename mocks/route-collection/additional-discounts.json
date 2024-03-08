@@ -1,0 +1,14 @@
+[
+  "discounts-additional-catalog:@admin/success",
+  "discounts-additional-product-list:@admin/success",
+  "discounts-additional-find-by-id:@admin/success",
+  "discounts-additional-create:@admin/success",
+  "discounts-additional-batch:@admin/success",
+  "discounts-additional-update-by-id:@admin/success",
+  "discounts-additional-delete-by-id:@admin/success",
+  "discounts-additional-product-find-by-id:@admin/success",
+  "discounts-additional-update-product-find-by-id:@admin/success",
+  "discounts-additional-delete-product:@admin/success",
+  "discounts-additional-create-product:@admin/success",
+  "discounts-additional-product-batch:@admin/success"
+]

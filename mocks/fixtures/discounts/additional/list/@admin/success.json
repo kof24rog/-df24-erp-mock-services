@@ -1,0 +1,71 @@
+[
+  {
+    "id": 12345671,
+    "title": "Descuentos especiales 5-30-x",
+    "summary": "Lorem ipsun cammus alperto 30",
+    "target": {
+      "chains": [
+        { "id": 52, "title": "Maraplus" },
+        { "id": 53, "title": "Farmatodo" }
+      ],
+      "customers": [],
+      "all": false
+    },
+    "beginAt": "2024-05-24T08:00:59.466Z",
+    "endAt": "2024-05-24T08:00:59.466Z",
+    "status": "ative",
+    "createdAt": "2024-05-24T08:00:59.466Z",
+    "updatedAt": "2024-05-24T08:00:59.466Z"
+  },
+  {
+    "id": 12345672,
+    "title": "Descuentos especiales 5-40-x",
+    "summary": "Lorem ipsun cammus alperto 40",
+    "target": {
+      "chains": [],
+      "customers": [
+        { "id": 52, "name": "Farmacia la Candela", "rif": "j299952461" },
+        { "id": 53, "name": "Saluceutica 1230 CA", "rif": "j299952461" }
+      ],
+      "all": false
+    },
+    "beginAt": "2024-05-24T08:00:59.466Z",
+    "endAt": "2024-05-24T08:00:59.466Z",
+    "status": "active",
+    "createdAt": "2024-05-24T08:00:59.466Z",
+    "updatedAt": "2024-05-24T08:00:59.466Z"
+  },
+  {
+    "id": 12345673,
+    "title": "Descuentos especiales 5-50-x",
+    "summary": "Lorem ipsun cammus alperto 50",
+    "target": {
+      "chains": [],
+      "customers": [],
+      "all": true
+    },
+    "beginAt": "2024-05-24T08:00:59.466Z",
+    "endAt": "2024-05-24T08:00:59.466Z",
+    "status": "active",
+    "createdAt": "2024-05-24T08:00:59.466Z",
+    "updatedAt": "2024-05-24T08:00:59.466Z"
+  },
+  {
+    "id": 675,
+    "title": "Descuentos especiales 5-40-x",
+    "summary": "Lorem ipsun cammus alperto 40",
+    "target": {
+      "chains": [],
+      "customers": [
+        { "id": 52, "name": "Farmacia la Candela", "rif": "j299952461" },
+        { "id": 53, "name": "Saluceutica 1230 CA", "rif": "j299952461" }
+      ],
+      "all": false
+    },
+    "beginAt": "2024-05-24T08:00:59.466Z",
+    "endAt": "2024-05-24T08:00:59.466Z",
+    "status": "active",
+    "createdAt": "2024-05-24T08:00:59.466Z",
+    "updatedAt": "2024-05-24T08:00:59.466Z"
+  }
+]

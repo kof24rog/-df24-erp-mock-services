@@ -1,0 +1,127 @@
+[
+  {
+    "id": 12,
+    "title": "FARMAEXPRESS CARIBE Y MILAGRO",
+    "summary": "Justificación del grupo Farmaexpress",
+    "customers": [
+      {
+        "id": 12,
+        "name": "Farmacia 1",
+        "rif": "J698461212"
+      },
+      {
+        "id": 13,
+        "name": "Farmacia 2",
+        "rif": "J698461213"
+      },
+      {
+        "id": 14,
+        "name": "Farmacia 3",
+        "rif": "J698461214"
+      }
+    ],
+    "status": "active",
+    "createdAt": "2022-04-01T12:42:36.827Z",
+    "updatedAt": "2023-03-02T12:12:48.571Z"
+  },
+  {
+    "id": 22,
+    "title": "SUPER 900",
+    "summary": "Justificación del grupo Super 900",
+    "customers": [
+      {
+        "id": 32,
+        "name": "Farmacia 31",
+        "rif": "J698461232"
+      },
+      {
+        "id": 33,
+        "name": "Farmacia 32",
+        "rif": "J698461233"
+      },
+      {
+        "id": 34,
+        "name": "Farmacia 33",
+        "rif": "J698461234"
+      }
+    ],
+    "status": "active",
+    "createdAt": "2022-04-01T12:42:36.827Z",
+    "updatedAt": "2023-03-02T12:12:48.571Z"
+  },
+  {
+    "id": 32,
+    "title": "GRUPO DIOS EN TU CONFIO",
+    "summary": "Justificación del grupo Grupo Dios en ti confio",
+    "customers": [
+      {
+        "id": 22,
+        "name": "Farmacia 21",
+        "rif": "J698461222"
+      },
+      {
+        "id": 23,
+        "name": "Farmacia 22",
+        "rif": "J698461223"
+      },
+      {
+        "id": 24,
+        "name": "Farmacia 23",
+        "rif": "J698461224"
+      }
+    ],
+    "status": "active",
+    "createdAt": "2022-04-01T12:42:36.827Z",
+    "updatedAt": "2023-03-02T12:12:48.571Z"
+  },
+  {
+    "id": 42,
+    "title": "FARMACIAS YA",
+    "summary": "Justificación del grupo Farmacias Ya",
+    "customers": [
+      {
+        "id": 42,
+        "name": "Farmacia 41",
+        "rif": "J698461242"
+      },
+      {
+        "id": 43,
+        "name": "Farmacia 42",
+        "rif": "J698461243"
+      },
+      {
+        "id": 44,
+        "name": "Farmacia 43",
+        "rif": "J698461244"
+      }
+    ],
+    "status": "active",
+    "createdAt": "2022-04-01T12:42:36.827Z",
+    "updatedAt": "2023-03-02T12:12:48.571Z"
+  },
+  {
+    "id": 52,
+    "title": "MARAPLUS",
+    "summary": "Justificación del grupo Maraplus",
+    "customers": [
+      {
+        "id": 52,
+        "name": "Farmacia 51",
+        "rif": "J698461252"
+      },
+      {
+        "id": 53,
+        "name": "Farmacia 52",
+        "rif": "J698461253"
+      },
+      {
+        "id": 54,
+        "name": "Farmacia 53",
+        "rif": "J698461254"
+      }
+    ],
+    "status": "active",
+    "createdAt": "2022-04-01T12:42:36.827Z",
+    "updatedAt": "2023-03-02T12:12:48.571Z"
+  }
+]

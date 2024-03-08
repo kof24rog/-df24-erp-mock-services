@@ -1,0 +1,8 @@
+[
+  "discounts-product-catalog:@admin/success",
+  "discounts-product-find-by-id:@admin/success",
+  "discounts-product-update-by-id:@admin/success",
+  "discounts-product-create:@admin/success",
+  "discounts-product-batch:@admin/success",
+  "discounts-product-delete-by-id:@admin/success"
+]

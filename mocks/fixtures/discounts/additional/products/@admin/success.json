@@ -1,0 +1,56 @@
+[
+  {
+    "id": "1",
+    "title": "Product 1",
+    "brand": "Brand 1",
+    "provider": "Laboratorios 1",
+    "sku": "i3gybfvt31",
+    "productId": 11,
+    "value": 0.65
+  },
+  {
+    "id": "2",
+    "title": "Product 2",
+    "brand": "Brand 2",
+    "provider": "Laboratorios 2",
+    "sku": "i3gybfvt32",
+    "productId": 12,
+    "value": 0.71
+  },
+  {
+    "id": "3",
+    "title": "Product 3",
+    "brand": "Brand 3",
+    "provider": "Laboratorios Elmor",
+    "sku": "i3gybfvt33",
+    "productId": 13,
+    "value": 0.52
+  },
+  {
+    "id": "4",
+    "title": "Product 4",
+    "brand": "Brand 4",
+    "provider": "Laboratorios Elmor",
+    "sku": "i3gybfvt34",
+    "productId": 14,
+    "value": 0.82
+  },
+  {
+    "id": "5",
+    "title": "Product 5",
+    "brand": "Brand 5",
+    "provider": "Laboratorios Elmor",
+    "sku": "i3gybfvt35",
+    "productId": 15,
+    "value": 0.42
+  },
+  {
+    "id": "6",
+    "title": "Product 6",
+    "brand": "Brand 6",
+    "provider": "Laboratorios Kali",
+    "sku": "i3gybfvt36",
+    "productId": 16,
+    "value": 0.02
+  }
+]

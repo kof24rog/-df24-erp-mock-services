@@ -1,0 +1,10 @@
+[
+  "orders-download-by-id:@admin/success",
+  "orders-list:@admin/success",
+  "orders-status-list:@admin/success",
+  "orders-status-find-by-id:@admin/success",
+  "orders-find-by-id:@admin/success",
+  "orders-process-checkout:@admin/success",
+  "orders-status-delete-by-id:@admin/success",
+  "orders-status-update-by-id:@admin/success"
+]

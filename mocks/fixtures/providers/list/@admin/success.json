@@ -1,0 +1,68 @@
+[
+  {
+    "id": "12345678",
+    "erpCode": "j-29952471",
+    "rif": "j-29952471",
+    "title": "Laboratorios Elmor",
+    "phone": "0424193131",
+    "address": "address 1 address 1",
+    "contact": "Juan Perez 1",
+    "email": "lab01@gmail.com",
+    "status": "active"
+  },
+  {
+    "id": "12345670",
+    "erpCode": "j-29952472",
+    "rif": "j-29952472",
+    "title": "Letti Laboratories",
+    "phone": "0424193132",
+    "address": "address 2 address 2",
+    "contact": "Juan Perez 2",
+    "email": "lab02@gmail.com",
+    "status": "active"
+  },
+  {
+    "id": "12345671",
+    "erpCode": "j-29952473",
+    "rif": "j-29952473",
+    "title": "Pfizer Inc.",
+    "phone": "0424193133",
+    "address": "address 3 address 3",
+    "contact": "Juan Perez 3",
+    "email": "lab03@gmail.com",
+    "status": "active"
+  },
+  {
+    "id": "12345672",
+    "erpCode": "j-29952474",
+    "rif": "j-29952474",
+    "title": "Laboratorios Farma",
+    "phone": "0424193134",
+    "address": "address 4 address 4",
+    "contact": "Juan Perez 4",
+    "email": "lab04@gmail.com",
+    "status": "active"
+  },
+  {
+    "id": "12345673",
+    "erpCode": "j-29952475",
+    "rif": "j-29952475",
+    "title": "Novartis Labs",
+    "phone": "0424193135",
+    "address": "address 5 address 5",
+    "contact": "Juan Perez 6",
+    "email": "lab05@gmail.com",
+    "status": "active"
+  },
+  {
+    "id": "12345673",
+    "erpCode": "j-29952475",
+    "rif": "j-29952475",
+    "title": "Lab Elmorsillo CA",
+    "phone": "0424193136",
+    "address": "address 6 address 6",
+    "contact": "Juan Perez 5",
+    "email": "lab06@gmail.com",
+    "status": "active"
+  }
+]
