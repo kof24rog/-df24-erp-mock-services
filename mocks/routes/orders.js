@@ -8,10 +8,18 @@ const {
 const f = require("../../utils/middleware/filter-data");
 const s = require("../../utils/middleware/query-data");
 
+const {
+  tranform: transformToCheckpointReview,
+} = require("../../utils/transform/checkpoint-review");
+
 const DATA_LIST_ADMIN_SUCCESS = require("../fixtures/orders/list/@admin/success.json");
 const DATA_STATUS_ADMIN_SUCCESS = require("../fixtures/orders/commons/order-status/@admin/success.json");
 const DATA_CREATE_CHECKOUT_ADMIN_SUCCESS = require("../fixtures/orders/checkout/create/@salesman/success.json");
 const DATA_REVIEW_CHECKOUT_ADMIN_SUCCESS = require("../fixtures/orders/checkout/review/@salesman/success.json");
+
+const DATA_CHECKPOINT_REVIEW_SUCCESS = transformToCheckpointReview(
+  DATA_LIST_ADMIN_SUCCESS
+);
 
 module.exports = [
   {
@@ -26,6 +34,48 @@ module.exports = [
           DATA_LIST_ADMIN_SUCCESS,
           f.orders,
           s.orders
+        ),
+      },
+    ],
+  },
+  {
+    id: "orders-checkpoint-reject-by-id",
+    url: "/orders/checkpoint/review/rejected/:id",
+    method: "PUT",
+    variants: [
+      {
+        id: "@admin/success",
+        type: "middleware",
+        options: getMiddlewareUpdateELementOptions(
+          DATA_CHECKPOINT_REVIEW_SUCCESS
+        ),
+      },
+    ],
+  },
+  {
+    id: "orders-checkpoint-approved-by-id",
+    url: "/orders/checkpoint/review/approved/:id",
+    method: "PUT",
+    variants: [
+      {
+        id: "@admin/success",
+        type: "middleware",
+        options: getMiddlewareUpdateELementOptions(
+          DATA_CHECKPOINT_REVIEW_SUCCESS
+        ),
+      },
+    ],
+  },
+  {
+    id: "orders-checkpoint-review",
+    url: "/orders/checkpoint/review/:id",
+    method: "GET",
+    variants: [
+      {
+        id: "@admin/success",
+        type: "middleware",
+        options: getMiddlewareFindELementOptions(
+          DATA_CHECKPOINT_REVIEW_SUCCESS
         ),
       },
     ],
